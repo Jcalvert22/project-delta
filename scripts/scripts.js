@@ -5,7 +5,11 @@ let timeLeft = 0;
 
 // When page loads
 document.addEventListener('DOMContentLoaded', function() {
-    setupButtons();
+    try {
+        setupButtons();
+    } catch (error) {
+        console.error('Error initializing timer:', error);
+    }
 });
 
 // Setup all button listeners

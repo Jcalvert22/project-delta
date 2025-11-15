@@ -9,7 +9,7 @@ body {
 main {
     background-color: white;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 32px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -21,26 +21,15 @@ main {
 
 .card-header h3 {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 20.8px;
 }
 
-/* Old iPhone Timer Demo */
+/* Old Timer Display */
 .old-timer {
     background-color: #2c2c2e;
     border-radius: 10px;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.wheel-demo {
-    color: white;
-}
-
-.wheel-numbers {
-    font-size: 1.5rem;
     padding: 20px;
-    border-top: 1px solid rgba(255,255,255,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
 }
 
 /* Preset Buttons */
@@ -57,8 +46,8 @@ main {
 }
 
 .btn-preset.active {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: royalblue;
+    border-color: royalblue;
     color: white;
 }
 
@@ -74,15 +63,15 @@ main {
 .time-inputs input {
     width: 60px;
     height: 60px;
-    font-size: 1.5rem;
+    font-size: 24px;
     text-align: center;
-    border: 2px solid #ddd;
+    border: 2px solid lightgray;
     border-radius: 8px;
 }
 
 .time-inputs input:focus {
     outline: none;
-    border-color: #0d6efd;
+    border-color: royalblue;
 }
 
 /* Remove number input arrows */
@@ -97,25 +86,13 @@ main {
 }
 
 .time-inputs span {
-    font-size: 1.8rem;
+    font-size: 28.8px;
     font-weight: bold;
-}
-
-/* Controls */
-.controls {
-    text-align: center;
-}
-
-.controls button {
-    margin: 0 5px;
-    padding: 10px 25px;
-    border-radius: 8px;
-    font-weight: 600;
 }
 
 /* Timer Display */
 .timer-display {
-    background: linear-gradient(to right, #667eea, #764ba2);
+    background: linear-gradient(to right, slateblue, mediumpurple);
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -123,32 +100,17 @@ main {
 }
 
 .timer-display .time {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .timer-display .status {
-    font-size: 1rem;
+    font-size: 16px;
     margin-top: 10px;
 }
 
 .timer-display.running {
-    background: linear-gradient(to right, #11998e, #38ef7d);
-}
-
-/* Metrics */
-.row h4 {
-    color: #0d6efd;
-    font-weight: bold;
-}
-
-/* Footer */
-footer a {
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    background: linear-gradient(to right, mediumseagreen, limegreen);
 }
 
 /* Responsive */
@@ -156,10 +118,10 @@ footer a:hover {
     .time-inputs input {
         width: 50px;
         height: 50px;
-        font-size: 1.2rem;
+        font-size: 19.2px;
     }
     
     .timer-display .time {
-        font-size: 2rem;
+        font-size: 32px;
     }
 }
