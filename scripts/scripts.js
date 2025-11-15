@@ -7,6 +7,7 @@ let timeLeft = 0;
 document.addEventListener('DOMContentLoaded', function() {
     try {
         setupButtons();
+        console.log('JavaScript successfully uploaded');
     } catch (error) {
         console.error('Error initializing timer:', error);
     }
