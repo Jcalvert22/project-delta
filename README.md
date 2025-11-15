@@ -72,6 +72,7 @@ project-delta/
 - Arial, sans-serif
 
 ## Attribution
+- This project was created by Jace Calvert
 - Bootstrap Docs: [getbootstrap.com](https://getbootstrap.com)
 - MDN Web Docs: JavaScript `setInterval` and `clearInterval`
 - W3Schools: [HTML Tutorial](https://www.w3schools.com/html/default.asp) - Code structures, CSS gradients, and input types
